@@ -39,6 +39,7 @@
      font-size: 24px;
      font-weight: 400;
      text-align: justify;
+     margin-bottom: 84px;
 
  }
 
@@ -63,4 +64,65 @@
      text-decoration: none;
      color: #BDBDBD;
      font-weight: 700;
+ }
+
+ @media screen and (min-width:319px) and (max-width:426px) {
+
+     .error {
+         flex-direction: column;
+     }
+
+     .error-banner {
+         width: 100%;
+         margin-bottom: 15%;
+     }
+
+     .error-heading {
+         font-size: 200%;
+     }
+
+     .error-detail {
+         font-size: 100%;
+     }
+
+     .BTN {
+         padding: 10%;
+     }
+
+
+ }
+
+ @media screen and (min-width:767px) and (max-width:1023px) {
+     * {
+         margin-right: 10px;
+     }
+
+     .error-banner {
+         height: 70%;
+
+     }
+
+     .error-heading {
+         font-size: 300%;
+     }
+ }
+
+ @media screen and (min-width:2000px) and (max-width:2560px) {
+
+     .error-heading {
+         font-size: 500%;
+     }
+
+     .error-detail {
+         font-size: 300%;
+     }
+
+     .BTN {
+         font-size: 150%;
+     }
+
+     footer {
+         font-size: 140%;
+     }
+
  }
