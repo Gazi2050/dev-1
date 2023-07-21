@@ -2,5 +2,50 @@
 
  * {
 
-     font-family: 'Space Mono'
+     font-family: 'Space Mono';
+     padding: auto;
+     padding-bottom: 5%;
+ }
+
+ .title {
+     padding: 40px 0px 200px 40px;
+     color: #333;
+     font-size: 24px;
+     font-weight: 700;
+ }
+
+ .error {
+     display: flex;
+ }
+
+ .error-banner {
+     width: 50vw;
+     margin: 5px;
+ }
+
+ .error-text {
+     width: 60%;
+     margin-left: 70px;
+ }
+
+ .error-heading {
+     color: #333;
+     font-size: 64px;
+     font-weight: 700;
+ }
+
+ p {
+     color: #333;
+     font-size: 24px;
+     font-weight: 400;
+
+ }
+
+ a {
+     background-color: #333;
+     color: #FFF;
+     font-size: 14px;
+     font-weight: 700;
+     padding: 24px 43px;
+     text-decoration: none;
  }
