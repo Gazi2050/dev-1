@@ -4,7 +4,7 @@
 
      font-family: 'Space Mono';
      padding: auto;
-     padding-bottom: 5%;
+
  }
 
  .title {
@@ -34,18 +34,33 @@
      font-weight: 700;
  }
 
- p {
+ .error-detail {
      color: #333;
      font-size: 24px;
      font-weight: 400;
+     text-align: justify;
 
  }
 
- a {
+ .BTN {
      background-color: #333;
      color: #FFF;
      font-size: 14px;
      font-weight: 700;
      padding: 24px 43px;
      text-decoration: none;
+ }
+
+ footer {
+     text-align: center;
+     color: #BDBDBD;
+     font-size: 14px;
+     font-weight: 500;
+     margin-top: 20%;
+ }
+
+ footer a {
+     text-decoration: none;
+     color: #BDBDBD;
+     font-weight: 700;
  }
